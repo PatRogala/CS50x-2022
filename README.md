@@ -1,4 +1,8 @@
 # CS50x-2022
+
+<p align="center">
+  <img src="bg.png" />
+</p>
 CS50x 2022 Edition
 
 Check out the [CS50x 2022 Edition](https://cs50.harvard.edu/x/2022/)!
