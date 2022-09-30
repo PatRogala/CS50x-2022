@@ -1,4 +1,4 @@
-# CS50x-2022
+# CS50x 2022
 
 <p align="center">
   <img src="bg.png" />
