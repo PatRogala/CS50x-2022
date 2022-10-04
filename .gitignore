@@ -6,3 +6,4 @@
 
 # Unignore all dirs
 !*/
+.DS_STORE
