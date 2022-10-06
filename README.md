@@ -7,7 +7,7 @@ CS50x 2022 Edition
 
 Check out the [CS50x 2022 Edition](https://cs50.harvard.edu/x/2022/)!
 
-## Current Progress
+## Current Progress ❌
 
 ### ✅ Week 1
   - ✅ [Hello](https://cs50.harvard.edu/x/2022/psets/1/hello/)
@@ -27,3 +27,6 @@ Check out the [CS50x 2022 Edition](https://cs50.harvard.edu/x/2022/)!
   - ✅ [Plurality](https://cs50.harvard.edu/x/2022/psets/3/plurality/)
   - ✅ [Runoff](https://cs50.harvard.edu/x/2022/psets/3/runoff/)
   - ✅ [Runoff](https://cs50.harvard.edu/x/2022/psets/3/tideman/)
+
+### ❌ Week 4
+  - ✅ [Lab](https://cs50.harvard.edu/x/2022/labs/4/)
