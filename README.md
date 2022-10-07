@@ -44,3 +44,4 @@ Check out the [CS50x 2022 Edition](https://cs50.harvard.edu/x/2022/)!
   - ✅ [Mario(less)](https://cs50.harvard.edu/x/2022/psets/6/mario/less/)
   - ✅ [Mario(more)](https://cs50.harvard.edu/x/2022/psets/6/mario/more/)
   - ✅ [Cash](https://cs50.harvard.edu/x/2022/psets/6/cash/)
+  - ✅ [Credit](https://cs50.harvard.edu/x/2022/psets/6/credit/)
