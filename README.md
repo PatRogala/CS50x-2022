@@ -40,3 +40,4 @@ Check out the [CS50x 2022 Edition](https://cs50.harvard.edu/x/2022/)!
 
 ### ❌ Week 6
   - ✅ [Lab](https://cs50.harvard.edu/x/2022/labs/6/)
+  - ✅ [Hello](https://cs50.harvard.edu/x/2022/psets/6/hello/)
