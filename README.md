@@ -33,3 +33,6 @@ Check out the [CS50x 2022 Edition](https://cs50.harvard.edu/x/2022/)!
   - ✅ [Filter(less)](https://cs50.harvard.edu/x/2022/psets/4/filter/less/)
   - ✅ [Filter(more)](https://cs50.harvard.edu/x/2022/psets/4/filter/more/)
   - ✅ [Recover](https://cs50.harvard.edu/x/2022/psets/4/recover/)
+
+### ❌ Week 5
+  - ✅ [Lab](https://cs50.harvard.edu/x/2022/labs/5/)
