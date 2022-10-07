@@ -60,4 +60,5 @@ def print_card_type(checksum, starting_digits, card_length):
         print("INVALID")
 
 
-main()
+if __name__ == "__main__":
+    main()
