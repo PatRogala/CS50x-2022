@@ -38,7 +38,7 @@ Check out the [CS50x 2022 Edition](https://cs50.harvard.edu/x/2022/)!
   - ✅ [Lab](https://cs50.harvard.edu/x/2022/labs/5/)
   - ✅ [Speller](https://cs50.harvard.edu/x/2022/psets/5/speller/)
 
-### ❌ Week 6
+### ✅ Week 6
   - ✅ [Lab](https://cs50.harvard.edu/x/2022/labs/6/)
   - ✅ [Hello](https://cs50.harvard.edu/x/2022/psets/6/hello/)
   - ✅ [Mario(less)](https://cs50.harvard.edu/x/2022/psets/6/mario/less/)
@@ -46,3 +46,4 @@ Check out the [CS50x 2022 Edition](https://cs50.harvard.edu/x/2022/)!
   - ✅ [Cash](https://cs50.harvard.edu/x/2022/psets/6/cash/)
   - ✅ [Credit](https://cs50.harvard.edu/x/2022/psets/6/credit/)
   - ✅ [Readability](https://cs50.harvard.edu/x/2022/psets/6/readability/)
+  - ✅ [Dna](https://cs50.harvard.edu/x/2022/psets/6/dna/)
