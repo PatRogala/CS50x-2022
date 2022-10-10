@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            window.addEventListener('load', (e) => {
+                document.querySelectorAll('.multiple').forEach((button) => {
+                    button.addEventListener('click', (e) => {
+                        let answer = button.getAttribute('data-correct');
+                        if (answer == 'correct') {
+                            button.classList.add('correct');
+                            document.querySelector("#result").innerHTML = 'Correct!';
+                        } else {
+                            button.classList.add('incorrect');
+                            document.querySelector("#result").innerHTML = 'Incorrect!';
+                        }
+                    });
+                });
+
+                document.querySelector("#submit-response").addEventListener('click', (e) => {
+                    let response = document.querySelector("#response").value;
+                    if (response == 'C' || response == 'c') {
+                        document.querySelector("#free-result").innerHTML = 'Correct!';
+                        document.querySelector("#response").classList.add('correct');
+                        document.querySelector("#response").classList.remove('incorrect');
+                    } else {
+                        document.querySelector("#free-result").innerHTML = 'Incorrect!';
+                        document.querySelector("#response").classList.add('incorrect');
+                        document.querySelector("#response").classList.remove('correct');
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>In which language, will you write script for this assignment</h3>
+                <button class="multiple" data-correct="incorrect">HTML</button>
+                <button class="multiple" data-correct="correct">JavaScript</button>
+                <button class="multiple" data-correct="incorrect">CSS</button>
+                <button class="multiple" data-correct="incorrect">Java</button>
+                <p id="result"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>Which language were you using during Week 1 of CS50?</h3>
+                <input type="text" id="response">
+                <button type="submit" id="submit-response">Submit</button>
+                <p id="free-result"></p>
+            </div>
+        </div>
+    </body>
+</html>

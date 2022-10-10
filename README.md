@@ -59,12 +59,12 @@ Check out the [CS50x 2022 Edition](https://cs50.harvard.edu/x/2022/)!
 | [Movies](https://cs50.harvard.edu/x/2022/psets/7/movies/)         |   ✅    |
 | [Fiftyville](https://cs50.harvard.edu/x/2022/psets/7/fiftyville/) |   ✅    |
 
-| Week 8                                                          | Status |
-|:------------------------------------------------------------------|:------:|
-| [Lab](https://cs50.harvard.edu/x/2022/labs/8/)                    |   ❌    |
-| [Homepage](https://cs50.harvard.edu/x/2022/psets/8/homepage/)         |   ❌   |
+| Week 8                                                        | Status |
+|:--------------------------------------------------------------|:------:|
+| [Lab](https://cs50.harvard.edu/x/2022/labs/8/)                |   ✅    |
+| [Homepage](https://cs50.harvard.edu/x/2022/psets/8/homepage/) |   ❌    |
 
-| Week 9                                                           | Status |
-|:------------------------------------------------------------------|:------:|
-| [Lab](https://cs50.harvard.edu/x/2022/labs/9/)                    |   ❌    |
-| [Finance](https://cs50.harvard.edu/x/2022/psets/9/finance/)         |   ❌    |
+| Week 9                                                      | Status |
+|:------------------------------------------------------------|:------:|
+| [Lab](https://cs50.harvard.edu/x/2022/labs/9/)              |   ❌    |
+| [Finance](https://cs50.harvard.edu/x/2022/psets/9/finance/) |   ❌    |
