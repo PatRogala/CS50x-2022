@@ -66,5 +66,5 @@ Check out the [CS50x 2022 Edition](https://cs50.harvard.edu/x/2022/)!
 
 | Week 9                                                      | Status |
 |:------------------------------------------------------------|:------:|
-| [Lab](https://cs50.harvard.edu/x/2022/labs/9/)              |   ❌    |
+| [Lab](https://cs50.harvard.edu/x/2022/labs/9/)              |   ✅    |
 | [Finance](https://cs50.harvard.edu/x/2022/psets/9/finance/) |   ❌    |
