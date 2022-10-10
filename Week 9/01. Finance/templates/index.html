@@ -9,7 +9,6 @@
         <thead>
             <tr>
                 <th>Symbol</th>
-                <th>Name</th>
                 <th>Shares</th>
                 <th>Price</th>
                 <th>TOTAL</th>
@@ -17,23 +16,30 @@
         </thead>
         <tfoot>
             <tr>
-                <td colspan="4"></td>
+                <td></td>
                 <td>${{ '%0.2f' % totalMoney }}</td>
             </tr>
         </tfoot>
         <tbody>
-            {% for stock in stocks %}
+            {% for stock in buys %}
                 <tr>
                     <td>{{ stock['symbol'] }}</td>
-                    <td>{{ stock['name'] }}</td>
                     <td>{{ stock['shares'] }}</td>
-                    <td>${{ stock['price'] }}</td>
-                    <td>${{ '%0.2f' % stock['total'] }}</td>
+                    <td>{{ stock['price'] }}</td>
+                    <td>${{ '%0.2f' % (stock['price'] * stock['shares']) }}</td>
                 </tr>
             {% endfor %}
+            {% for stock in sells %}
+            <tr>
+                <td>{{ stock['symbol'] }}</td>
+                <td>{{ stock['shares'] }}</td>
+                <td>{{ stock['price'] }}</td>
+                <td>${{ '%0.2f' % (stock['price'] * stock['shares']) }}</td>
+            </tr>
+        {% endfor %}
             <tr>
                 <td>CASH</td>
-                <td colspan="3"></td>
+                <td></td>
                 <td>${{ '%0.2f' % userCash }}</td>
             </tr>
         </tbody>

@@ -8,3 +8,4 @@
 !*/
 .DS_STORE
 __pycache__/
+flask_session/
